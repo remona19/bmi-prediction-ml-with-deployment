@@ -1,2 +1,2 @@
-# book-recommendation-system-with-deployment
-book recommendation system deployment using Flask
+# bmi-predictor-ml-with-deployment
+BMI predictor deployment using Flask

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Body Mass Index Predictor</title>
+</head>
+<style>
+    body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+    form {
+            text-align: center;
+        }
+</style>
+<body>
+    <h1>Body Mass Index Predictor</h1>
+    {% if result %}
+        <p> <b> {{ result }} </b> </p>
+    {% endif %}
+    <form method="post" action="/predict">
+        <label>GENDER</label> <br>
+        <label>
+            <input name="Gender" type="text">
+        </label><br><br>
+
+        <label>HEIGHT</label> <br>
+        <label>
+            <input name="Height" type="text">
+        </label><br><br>
+
+        <label>WEIGHT</label> <br>
+        <label>
+            <input name="Weight" type="text">
+        </label><br><br>
+
+        <input type="submit" value="Predict"> <br> <br>
+    </form>
+</body>
+</html>

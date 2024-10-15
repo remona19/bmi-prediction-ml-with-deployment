@@ -2,6 +2,9 @@
 
 This project is a BMI (Body Mass Index) Predictor built using Flask for the backend, integrated with a Machine Learning model, and deployed on AWS EC2. The application predicts a person's BMI based on user input such as height and weight.
 
+![Screenshot 2024-08-25 164828](https://github.com/user-attachments/assets/0814ea57-c5cf-4313-b879-48408e29bff1)
+
+
 # Key Features:
 Machine Learning Model:
 A pre-trained machine learning model is used to predict BMI using height and weight as input features.
